@@ -1,21 +1,19 @@
 apiVersion: apps/v1
 kind: Deployment
 metadata:
-  name: custom-deployment
-  labels:
-    app: custom
+  name: website-deployment
 spec:
-  replicas: 2
+  replicas: 1
   selector:
     matchLabels:
-      app: custom
+      app: website
   template:
     metadata:
       labels:
-        app: custom
+        app: website
     spec:
       containers:
-      - name: custom
+      - name: website
         image: kartikmesh2406/image
         ports:
-        - containerPort: 80
+        - containerPort: 85
