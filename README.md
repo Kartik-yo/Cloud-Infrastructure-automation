@@ -12,9 +12,6 @@ The primary goal of this project is to automate the provisioning and configurati
 
 - **Docker**: Utilized for containerizing applications to ensure consistent environments across different stages of development and deployment.
 
-## Project Duration
-
-The development and implementation of this project spanned approximately [insert duration], encompassing planning, execution, and testing phases.
 
 ## Cloud Infrastructure Automation
 
